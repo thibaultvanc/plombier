@@ -1,0 +1,16 @@
+/*
+Theme Name: shelley - child !!
+Template: shelley
+Theme URI:      http://example.com/
+Description:    Child theme for the Chelley
+Author:         organit
+Author URI:     http://organit.fr
+Version:        0.1.0
+*/
+
+@import url ("../shelley/style.css");
+
+
+*{
+	color: red;
+}
