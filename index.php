@@ -1,7 +1,6 @@
-index.php
+
 <?php
-var_dump($_SERVER);
-die(var_dump($_ENV));
+
 /**
  * Front to the WordPress application. This file doesn't do anything, but loads
  * wp-blog-header.php which does and tells WordPress to load the theme.

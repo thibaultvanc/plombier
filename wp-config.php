@@ -1,4 +1,6 @@
 <?php
+var_dump($_SERVER);
+die(var_dump($_ENV));
 /**
  * La configuration de base de votre installation WordPress.
  *
