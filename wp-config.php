@@ -30,7 +30,7 @@ define('DB_NAME', 'plombier');//getenv('db_database')? '':'plombier'
 define('DB_USER', 'forge'); //getenv('db_username')? '':'homestead':
 
 /** Mot de passe de la base de données MySQL. */
-define('DB_PASSWORD', 'ikIRnfeOaGjFGGZQOgea');//getenv('db_password')? '':'secret'
+define('DB_PASSWORD', 'ikIRnfeOaGjFGGZQOgea');//getenv('db_password')? '':'secret' 
 
 /** Adresse de l'hébergement MySQL. */
 define('DB_HOST', 'localhost');
