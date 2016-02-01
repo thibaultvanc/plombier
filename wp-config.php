@@ -19,18 +19,15 @@
 
 // ** Réglages MySQL - Votre hébergeur doit vous fournir ces informations. ** //
 /** Nom de la base de données de WordPress. */
-echo(getenv('db_database'));
-echo $_SERVER['DB_DATABASE'];
-echo $_SERVER['db_database'];
-echo "string";
+
 
 define('DB_NAME', 'plombier');//getenv('db_database')? '':'plombier'
 
 /** Utilisateur de la base de données MySQL. */
-define('DB_USER', 'forge'); //getenv('db_username')? '':'homestead':
+define('DB_USER', 'homestead'); //getenv('db_username')? '':'':forge
 
 /** Mot de passe de la base de données MySQL. */
-define('DB_PASSWORD', 'ikIRnfeOaGjFGGZQOgea');//getenv('db_password')? '':'secret' 
+define('DB_PASSWORD', 'secret');//getenv('db_password')? '':'secret' ikIRnfeOaGjFGGZQOgea
 
 /** Adresse de l'hébergement MySQL. */
 define('DB_HOST', 'localhost');
