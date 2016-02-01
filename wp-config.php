@@ -19,16 +19,16 @@
 
 // ** Réglages MySQL - Votre hébergeur doit vous fournir ces informations. ** //
 /** Nom de la base de données de WordPress. */
-define('DB_NAME', 'plombier');
+define('DB_NAME', getenv('db_database')? '':'plombier');
 
 /** Utilisateur de la base de données MySQL. */
-define('DB_USER', 'homestead');
+define('DB_USER', getenv('db_username')? '':'homestead');
 
 /** Mot de passe de la base de données MySQL. */
-define('DB_PASSWORD', 'secret');
+define('DB_PASSWORD', getenv('db_password')? '':'secret');
 
 /** Adresse de l'hébergement MySQL. */
-define('DB_HOST', 'localhost');
+define('DB_HOST', getenv('db_host')? '':'localhost');
 
 /** Jeu de caractères à utiliser par la base de données lors de la création des tables. */
 define('DB_CHARSET', 'utf8mb4');
