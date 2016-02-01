@@ -19,11 +19,7 @@
 
 // ** Réglages MySQL - Votre hébergeur doit vous fournir ces informations. ** //
 /** Nom de la base de données de WordPress. */
-System.getenv('DB_DATABASE');
 
-echo System.getenv('DB_DATABASE') ;
-
-die(var_dump($_ENV));
 
 define('DB_NAME', 'plombier');//getenv('db_database')? '':'plombier'
 
