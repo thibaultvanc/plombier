@@ -21,6 +21,8 @@
 /** Nom de la base de données de WordPress. */
 
 
+die(getenv('DB_DATABASE'));
+
 define('DB_NAME', 'plombier');//getenv('db_database')? '':'plombier'
 
 /** Utilisateur de la base de données MySQL. */
