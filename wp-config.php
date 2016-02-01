@@ -23,7 +23,7 @@ System.getenv('DB_DATABASE');
 
 echo System.getenv('DB_DATABASE') ;
 
-die(getenv('DB_DATABASE'));
+die($_ENV);
 
 define('DB_NAME', 'plombier');//getenv('db_database')? '':'plombier'
 
