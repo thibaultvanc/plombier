@@ -1,6 +1,4 @@
 <?php
-var_dump($_SERVER);
-die(var_dump($_ENV));
 /**
  * La configuration de base de votre installation WordPress.
  *
@@ -22,14 +20,13 @@ die(var_dump($_ENV));
 // ** Réglages MySQL - Votre hébergeur doit vous fournir ces informations. ** //
 /** Nom de la base de données de WordPress. */
 
-
-define('DB_NAME', 'plombier');//getenv('db_database')? '':'plombier'
+define('DB_NAME', $_SERVER['name']=='/home/forge'? 'plombier':'plombier');//
 
 /** Utilisateur de la base de données MySQL. */
-define('DB_USER', 'homestead'); //getenv('db_username')? '':'':forge
+define('DB_USER', $_SERVER['name']=='/home/forge'? 'forge':'homestead'); //getenv('db_username')? '':'':forge
 
 /** Mot de passe de la base de données MySQL. */
-define('DB_PASSWORD', 'secret');//getenv('db_password')? '':'secret' ikIRnfeOaGjFGGZQOgea
+define('DB_PASSWORD', $_SERVER['name']=='/home/forge'? 'ikIRnfeOaGjFGGZQOgea':'secret');//getenv('db_password')? '':'secret' ikIRnfeOaGjFGGZQOgea
 
 /** Adresse de l'hébergement MySQL. */
 define('DB_HOST', 'localhost'); ///////ah
