@@ -21,18 +21,19 @@
 /** Nom de la base de données de WordPress. */
 echo(getenv('db_database'));
 echo $_SERVER['DB_DATABASE'];
+echo $_SERVER['db_database'];
 echo "string";
-die(getenv('DB_DATABASE'));
-define('DB_NAME', getenv('db_database')? '':'plombier');
+
+define('DB_NAME', 'plombier');//getenv('db_database')? '':'plombier'
 
 /** Utilisateur de la base de données MySQL. */
-define('DB_USER', getenv('db_username')? '':'homestead');
+define('DB_USER', 'forge'); //getenv('db_username')? '':'homestead':
 
 /** Mot de passe de la base de données MySQL. */
-define('DB_PASSWORD', getenv('db_password')? '':'secret');
+define('DB_PASSWORD', 'ikIRnfeOaGjFGGZQOgea');//getenv('db_password')? '':'secret'
 
 /** Adresse de l'hébergement MySQL. */
-define('DB_HOST', getenv('db_host')? '':'localhost');
+define('DB_HOST', 'localhost');
 
 /** Jeu de caractères à utiliser par la base de données lors de la création des tables. */
 define('DB_CHARSET', 'utf8mb4');
