@@ -30,7 +30,7 @@ define('DB_USER', 'homestead'); //getenv('db_username')? '':'':forge
 define('DB_PASSWORD', 'secret');//getenv('db_password')? '':'secret' ikIRnfeOaGjFGGZQOgea
 
 /** Adresse de l'hébergement MySQL. */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'localhost'); ///////ah
 
 /** Jeu de caractères à utiliser par la base de données lors de la création des tables. */
 define('DB_CHARSET', 'utf8mb4');
