@@ -1,4 +1,4 @@
-<?php function shelley_load_hero() { 
+<?php function shelley_load_hero() {  
  
 	global $shelley_hero_tagline; 
 	global $shelley_hero_title;
