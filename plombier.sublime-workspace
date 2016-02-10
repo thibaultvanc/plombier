@@ -1,0 +1,438 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"lis",
+				"list-style"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"h",
+				"href	Attr"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"var",
+				"var_dump"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "wp-content/themes/shelley/front-page.php",
+			"settings":
+			{
+				"buffer_size": 1139,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/shelley/inc/customizer.php",
+			"settings":
+			{
+				"buffer_size": 70754,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 263.0,
+		"last_filter": "project",
+		"selected_items":
+		[
+			[
+				"project",
+				"Project: Close"
+			],
+			[
+				"proje",
+				"Project: Save As"
+			],
+			[
+				"project ",
+				"Project: Add Folder"
+			],
+			[
+				"pro",
+				"Project: Save As"
+			],
+			[
+				"project mana",
+				"Project Manager: Edit Project"
+			],
+			[
+				"project ma",
+				"Project Manager: Add Project"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"geters",
+				"Snippet: Get the URL (no query string) for the request."
+			],
+			[
+				"getter sett",
+				"Snippet: Get the first element of an array. Useful for method chaining."
+			],
+			[
+				"key",
+				"Preferences: Key Bindings - User"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 206.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/thibault/Code/plombier",
+		"/home/thibault/Code/plombier/wp-content",
+		"/home/thibault/Code/plombier/wp-content/themes",
+		"/home/thibault/Code/plombier/wp-content/themes/shelley",
+		"/home/thibault/Code/plombier/wp-content/themes/shelley/inc"
+	],
+	"file_history":
+	[
+		"/home/thibault/Code/plombier/wp-content/themes/shelley/css/custom.css",
+		"/home/thibault/Code/plombier/wp-content/themes/shelley/inc/shelley/section-intro.php",
+		"/home/thibault/Code/plombier/wp-content/themes/shelley/inc/shelley-variables.php",
+		"/home/thibault/Code/plombier/wp-admin/css/customize-nav-menus.css",
+		"/home/thibault/Code/plombier/wp-content/themes/shelley/inc/shelley-frontpage.php",
+		"/home/thibault/Code/plombier/wp-content/themes/shelley/inc/customizer.php",
+		"/home/thibault/Code/plombier/wp-content/themes/shelley/footer.php",
+		"/home/thibault/Code/plombier/wp-content/themes/shelley/inc/shelley/section-services.php",
+		"/home/thibault/Code/plombier/wp-content/themes/shelley/header.php",
+		"/home/thibault/Code/plombier/wp-content/themes/shelley/front-page.php",
+		"/home/thibault/.config/sublime-text-3/Packages/User/Projects/cfjjb.sublime-project",
+		"/home/thibault/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/thibault/Code/organit/vendor/symfony/finder/Finder.php",
+		"/home/thibault/Bureau/test.php",
+		"/home/thibault/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/thibault/Code/organit/app/Creation.php",
+		"/home/thibault/.config/sublime-text-3/Packages/User/untitled.sublime-snippet",
+		"/home/thibault/Code/organit/composer.lock",
+		"/home/thibault/Code/organit/composer.json",
+		"/tmp/fz3temp-1/filters.php",
+		"/tmp/fz3temp-1/composer.json",
+		"/home/thibault/Téléchargements/view.php",
+		"/tmp/fz3temp-1/server.php",
+		"/home/thibault/Code/mlm-valley/app/inlinr/PageLang.php",
+		"/home/thibault/Code/mlm-valley/app/inlinr/Page.php",
+		"/home/thibault/Code/mlm-valley/app/inlinr/MenuItem.php",
+		"/home/thibault/Code/mlm-valley/app/inlinr/Menu.php",
+		"/home/thibault/Code/mlm-valley/app/inlinr/Site.php",
+		"/home/thibault/Code/mlm-valley/public/index.php",
+		"/home/thibault/Code/mlm-valley/app/Http/routes.php",
+		"/home/thibault/Code/mlm-valley/app/Http/Controllers/inlinr/PageController.php",
+		"/home/thibault/Code/mlm-valley/app/inlinr/Theme.php",
+		"/home/thibault/Code/mlm-valley/app/inlinr/Block.php",
+		"/home/thibault/Code/mlm-valley/app/inlinr/BlockCase.php",
+		"/home/thibault/Code/mlm-valley/app/inlinr/BlockCategory.php",
+		"/home/thibault/Code/mlm-valley/app/inlinr/Column.php",
+		"/home/thibault/Code/mlm-valley/app/inlinr/Line.php",
+		"/home/thibault/Code/mlm-valley/app/inlinr/Space.php",
+		"/home/thibault/Code/mlm-valley/app/inlinr/SpaceAccess.php",
+		"/etc/hosts"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+			"/home/thibault/Code/plombier/wp-content/themes",
+			"/home/thibault/Code/plombier/wp-content/themes/shelley",
+			"/home/thibault/Code/mlm-valley/app/inlinr"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"intr",
+			"intro",
+			"25px",
+			"<img src=\"https://cdn3.iconfinder.com/data/icons/musthave/48/Check.png\">",
+			"<i class=\"fa fa-times\"></i>",
+			"shadow-top.png",
+			"shelley_intro_image",
+			"shelley_intro_paragraph_2",
+			"intro\n",
+			"shelley_intro_title",
+			"shelley_intro_teaser",
+			"shelley_intro_image_2",
+			"shelley_intro_title",
+			"echo",
+			"global",
+			"$shelley_load_order_services",
+			"<a href=\"\">",
+			"img",
+			"class=\"btn btn-primary\"",
+			"php",
+			"\"><?",
+			"class=\"btn btn-primary\"",
+			"shelley_services_href_button",
+			"shelley_services_title_1",
+			"col-sm-6",
+			"col-sm-6 col",
+			"col-sm-6 ",
+			"shelley_services_description_1",
+			"shelley_services_description",
+			"shelley_services_description_2",
+			"shelley_services_description",
+			"shelley_services_description_2",
+			"shelley_services_description",
+			"shelley_services_description_1",
+			"shelley_services_description",
+			"shelley_services_description_1",
+			"shelley_services_description",
+			"comme",
+			"\\App\\Inlinr"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\\App\\inlinr"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "wp-content/themes/shelley/front-page.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1139,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								459,
+								459
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 276.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "wp-content/themes/shelley/inc/customizer.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 70754,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3544,
+								3544
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2553.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 68.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "plombier.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"sinder",
+				"vendor/symfony/finder/Finder.php"
+			],
+			[
+				"space",
+				"app/inlinr/Space.php"
+			],
+			[
+				"pagecontroller",
+				"app/Http/Controllers/inlinr/PageController.php"
+			],
+			[
+				"routes",
+				"app/Http/routes.php"
+			],
+			[
+				"inlin/me",
+				"app/inlinr/Menu.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "devi",
+		"selected_items":
+		[
+			[
+				"devi",
+				"~/Code/devil/devil.sublime-project"
+			],
+			[
+				"or",
+				"~/Code/organit/organit.sublime-project"
+			],
+			[
+				"orga",
+				"~/Code/organit/organit.sublime-project"
+			],
+			[
+				"",
+				"~/Code/organit/organit.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 270.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

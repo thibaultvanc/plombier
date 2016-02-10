@@ -1,4 +1,6 @@
 <?php
+ 
+
 /**
  * shelley theme frontpage setup
  */
@@ -26,16 +28,16 @@
 ?>
 
 <?php 
-	
+
 $shelley_load_order = array(
+	array("function" => "shelley_load_services", "load_order" => $shelley_load_order_services),
 	array("function" => "shelley_load_hero", "load_order" => $shelley_load_order_hero),
 	array("function" => "shelley_load_intro", "load_order" => $shelley_load_order_intro),
-	array("function" => "shelley_load_members", "load_order" => $shelley_load_order_members),
-	array("function" => "shelley_load_services", "load_order" => $shelley_load_order_services),
-	array("function" => "shelley_load_portfolio", "load_order" => $shelley_load_order_portfolio),
-	array("function" => "shelley_load_testimonials", "load_order" => $shelley_load_order_testimonials),
-	array("function" => "shelley_load_counters", "load_order" => $shelley_load_order_counters),
-	array("function" => "shelley_load_actnow", "load_order" => $shelley_load_order_actnow)
+	//array("function" => "shelley_load_members", "load_order" => $shelley_load_order_members),
+	//array("function" => "shelley_load_portfolio", "load_order" => $shelley_load_order_portfolio),
+	//array("function" => "shelley_load_testimonials", "load_order" => $shelley_load_order_testimonials),
+	//array("function" => "shelley_load_counters", "load_order" => $shelley_load_order_counters),
+	//array("function" => "shelley_load_actnow", "load_order" => $shelley_load_order_actnow),
 );
 
 function shelley_get_load_order($a, $b)  {
@@ -43,7 +45,12 @@ function shelley_get_load_order($a, $b)  {
 }
 	usort($shelley_load_order, 'shelley_get_load_order');
 
+
+
+
+
 foreach($shelley_load_order as $key => $item){
+
 	if ($item['load_order'] != 0) {
 		$item['function']();
 	}

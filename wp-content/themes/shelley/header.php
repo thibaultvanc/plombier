@@ -20,9 +20,10 @@
 </head>
 
 <body <?php body_class(); ?>>
-
 <div id="page" class="hfeed site">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'shelley' ); ?></a>
+
+	<a class="skip-link screen-reader-text" href="#content">
+	<?php esc_html_e( 'Skip to content', 'shelley' ); ?></a>
 		<div class="container">	
 			<div class="row bg-defzault">
 				<div class="pull-right">	
@@ -33,6 +34,7 @@
 				</div>
 			</div>
 		</div>
+
 
 	<header id="masthead" class="site-header" role="banner">
 		<!-- <div class="row bg-primary">

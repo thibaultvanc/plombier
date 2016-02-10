@@ -2,13 +2,13 @@
 		
 	// Load Order Sections Settings
 		global $shelley_load_order_hero;
-		if ( '' == get_theme_mod( 'shelley_load_order_hero' ) ) { $shelley_load_order_hero = '1'; } else { $shelley_load_order_hero = get_theme_mod('shelley_load_order_hero'); }
+		if ( '' == get_theme_mod( 'shelley_load_order_hero' ) ) { $shelley_load_order_hero = '99'; } else { $shelley_load_order_hero = get_theme_mod('shelley_load_order_hero'); }
 		global $shelley_load_order_intro;
 		if ( '' == get_theme_mod( 'shelley_load_order_intro' ) ) { $shelley_load_order_intro = '2'; } else { $shelley_load_order_intro = get_theme_mod('shelley_load_order_intro'); }
 		global $shelley_load_order_members;
 		if ( '' == get_theme_mod( 'shelley_load_order_members' ) ) { $shelley_load_order_members = '3'; } else { $shelley_load_order_members = get_theme_mod('shelley_load_order_members'); }
 		global $shelley_load_order_services;
-		if ( '' == get_theme_mod( 'shelley_load_order_services' ) ) { $shelley_load_order_services = '4'; } else { $shelley_load_order_services = get_theme_mod('shelley_load_order_services'); }
+		if ( '' == get_theme_mod( 'shelley_load_order_services' ) ) { $shelley_load_order_services = '1'; } else { $shelley_load_order_services = get_theme_mod('shelley_load_order_services'); }
 		global $shelley_load_order_portfolio;
 		if ( '' == get_theme_mod( 'shelley_load_order_portfolio' ) ) { $shelley_load_order_portfolio = '5'; } else { $shelley_load_order_portfolio = get_theme_mod('shelley_load_order_portfolio'); }
 		global $shelley_load_order_testimonials; 
@@ -37,14 +37,42 @@
 	// Intro Settings	
 		global $shelley_intro_image;
 		if ( '' == get_theme_mod( 'shelley_intro_image' ) ) { $shelley_intro_image = 'http://placehold.it/540x370'; } else { $shelley_intro_image = get_theme_mod('shelley_intro_image'); }
-		global $shelley_intro_image_2;
-		if ( '' == get_theme_mod( 'shelley_intro_image_2' ) ) { $shelley_intro_image_2 = 'http://placehold.it/540x370'; } else { $shelley_intro_image_2 = get_theme_mod('shelley_intro_image_2'); }
 		global $shelley_intro_title;
 		if ( '' == get_theme_mod( 'shelley_intro_title' ) ) { $shelley_intro_title = 'Change this title in Customizer'; } else { $shelley_intro_title = get_theme_mod('shelley_intro_title'); }
 		global $shelley_intro_paragraph_1;
 		if ( '' == get_theme_mod( 'shelley_intro_paragraph_1' ) ) { $shelley_intro_paragraph_1 = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id ultricies felis. Fusce sed nisi velit. Quisque cursus pharetra diam, non congue ligula sodales at. Phasellus sodales sem sagittis arcu vulputate dictum. Vestibulum faucibus malesuada risus. '; } else { $shelley_intro_paragraph_1 = get_theme_mod('shelley_intro_paragraph_1'); }
+		
 		global $shelley_intro_paragraph_2;
 		if ( '' == get_theme_mod( 'shelley_intro_paragraph_2' ) ) { $shelley_intro_paragraph_2 = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id ultricies felis. Fusce sed nisi velit. Quisque cursus pharetra diam, non congue ligula sodales at. Phasellus sodales sem sagittis arcu vulputate dictum. Vestibulum faucibus malesuada risus. '; } else { $shelley_intro_paragraph_2 = get_theme_mod('shelley_intro_paragraph_2'); }
+
+
+
+		global $shelley_intro_image_2;
+		if ( '' == get_theme_mod( 'shelley_intro_image_2' ) ) { $shelley_intro_image_2 = 'http://placehold.it/540x370'; } else { $shelley_intro_image_2 = get_theme_mod('shelley_intro_image_2'); }
+
+		global $shelley_intro_teaser;
+		if ( '' == get_theme_mod( 'shelley_intro_teaser' ) ) { $shelley_intro_teaser = 'intro'; } else { $shelley_intro_teaser = get_theme_mod('shelley_intro_teaser'); }
+
+		
+		global $shelley_intro_arg_1;
+		if ( '' == get_theme_mod( 'shelley_intro_arg_1' ) ) { $shelley_intro_arg_1 = 'a1'; } else { $shelley_intro_arg_1 = get_theme_mod('shelley_intro_arg_1'); }
+		
+		global $shelley_intro_arg_2;
+		if ( '' == get_theme_mod( 'shelley_intro_arg_2' ) ) { $shelley_intro_arg_2 = 'a2'; } else { $shelley_intro_arg_2 = get_theme_mod('shelley_intro_arg_2'); }
+		
+		global $shelley_intro_arg_3;
+		if ( '' == get_theme_mod( 'shelley_intro_arg_3' ) ) { $shelley_intro_arg_3 = 'a3'; } else { $shelley_intro_arg_3 = get_theme_mod('shelley_intro_arg_3'); }
+		
+		global $shelley_intro_arg_4;
+		if ( '' == get_theme_mod( 'shelley_intro_arg_4' ) ) { $shelley_intro_arg_4 = 'a4'; } else { $shelley_intro_arg_4 = get_theme_mod('shelley_intro_arg_4'); }
+	
+
+
+
+
+
+
+
 		
 	//Member images
 		global $shelley_member_image_1;
@@ -75,6 +103,15 @@
 		global $shelley_member_description_3;
 		if ( '' == get_theme_mod( 'shelley_member_description_3' ) ) { $shelley_member_description_3 = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id ultricies felis. Fusce sed nisi velit. Quisque cursus pharetra diam, non congue ligula sodales at. Phasellus sodales sem sagittis arcu vulputate dictum. Vestibulum faucibus malesuada risus. '; } else { $shelley_member_description_3 = get_theme_mod('shelley_member_description_3'); }
 		
+
+
+
+
+
+
+
+
+
 	// Services settings
 		global $shelley_services_header;
 		if ( '' == get_theme_mod( 'shelley_services_header' ) ) { $shelley_services_header = 'Change this heading title in Customizer'; } else { $shelley_services_header = get_theme_mod('shelley_services_header'); }
@@ -98,9 +135,22 @@
 		if ( '' == get_theme_mod( 'shelley_services_title_3' ) ) { $shelley_services_title_3 = 'Change this title in Customizer'; } else { $shelley_services_title_3 = get_theme_mod('shelley_services_title_3'); }
 		global $shelley_services_title_4;
 		if ( '' == get_theme_mod( 'shelley_services_title_4' ) ) { $shelley_services_title_4 = 'Change this title in Customizer'; } else { $shelley_services_title_4 = get_theme_mod('shelley_services_title_4'); }
-	//Service descriptions
+	
+	//Service DEC
+		global $shelley_services_href_button_1;
+		if ( '' == get_theme_mod( 'shelley_services_href_button_1' ) ) { $shelley_services_href_button_1 = 'lien'; } else { $shelley_services_href_button_1 = get_theme_mod('shelley_services_href_button_1'); }
+		global $shelley_services_href_button_2;
+		if ( '' == get_theme_mod( 'shelley_services_href_button_2' ) ) { $shelley_services_href_button_2 = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet dolor nec diam pharetra, eu sodales massa euismod.'; } else { $shelley_services_href_button_2 = get_theme_mod('shelley_services_href_button_2'); }
+		global $shelley_services_href_button_3;
+		if ( '' == get_theme_mod( 'shelley_services_href_button_3' ) ) { $shelley_services_href_button_3 = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet dolor nec diam pharetra, eu sodales massa euismod.'; } else { $shelley_services_href_button_3 = get_theme_mod('shelley_services_href_button_3'); }
+		global $shelley_services_href_button_4;
+		if ( '' == get_theme_mod( 'shelley_services_href_button_4' ) ) { $shelley_services_href_button_4 = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet dolor nec diam pharetra, eu sodales massa euismod.'; } else { $shelley_services_href_button_4 = get_theme_mod('shelley_services_href_button_4'); }
+		
+
+
+	//Service href
 		global $shelley_services_description_1;
-		if ( '' == get_theme_mod( 'shelley_services_description_1' ) ) { $shelley_services_description_1 = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet dolor nec diam pharetra, eu sodales massa euismod.'; } else { $shelley_services_description_1 = get_theme_mod('shelley_services_description_1'); }
+		if ( '' == get_theme_mod( 'shelley_services_description_1' ) ) { $shelley_services_description_1 = 'lien'; } else { $shelley_services_description_1 = get_theme_mod('shelley_services_description_1'); }
 		global $shelley_services_description_2;
 		if ( '' == get_theme_mod( 'shelley_services_description_2' ) ) { $shelley_services_description_2 = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet dolor nec diam pharetra, eu sodales massa euismod.'; } else { $shelley_services_description_2 = get_theme_mod('shelley_services_description_2'); }
 		global $shelley_services_description_3;
@@ -108,6 +158,27 @@
 		global $shelley_services_description_4;
 		if ( '' == get_theme_mod( 'shelley_services_description_4' ) ) { $shelley_services_description_4 = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet dolor nec diam pharetra, eu sodales massa euismod.'; } else { $shelley_services_description_4 = get_theme_mod('shelley_services_description_4'); }
 		
+	//Service text button
+		global $shelley_services_text_button_1;
+		if ( '' == get_theme_mod( 'shelley_services_text_button_1' ) ) { $shelley_services_text_button_1 = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet dolor nec diam pharetra, eu sodales massa euismod.'; } else { $shelley_services_text_button_1 = get_theme_mod('shelley_services_text_button_1'); }
+		global $shelley_services_text_button_2;
+		if ( '' == get_theme_mod( 'shelley_services_text_button_2' ) ) { $shelley_services_text_button_2 = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet dolor nec diam pharetra, eu sodales massa euismod.'; } else { $shelley_services_text_button_2 = get_theme_mod('shelley_services_text_button_2'); }
+		global $shelley_services_text_button_3;
+		if ( '' == get_theme_mod( 'shelley_services_text_button_3' ) ) { $shelley_services_text_button_3 = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet dolor nec diam pharetra, eu sodales massa euismod.'; } else { $shelley_services_text_button_3 = get_theme_mod('shelley_services_text_button_3'); }
+		global $shelley_services_text_button_4;
+		if ( '' == get_theme_mod( 'shelley_services_text_button_4' ) ) { $shelley_services_text_button_4 = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet dolor nec diam pharetra, eu sodales massa euismod.'; } else { $shelley_services_text_button_4 = get_theme_mod('shelley_services_text_button_4'); }
+		
+
+
+
+
+
+
+
+
+
+
+
 	// Portfolio settings
 		global $shelley_portfolio_header;
 		if ( '' == get_theme_mod( 'shelley_portfolio_header' ) ) { $shelley_portfolio_header = 'Change this heading title in Customizer'; } else { $shelley_portfolio_header = get_theme_mod('shelley_portfolio_header'); }

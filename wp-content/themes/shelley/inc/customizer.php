@@ -650,6 +650,24 @@ function shelley_customize_register( $wp_customize ) {
 	$wp_customize->add_setting( 'shelley_intro_paragraph_2', array(
 	'sanitize_callback' => 'sanitize_text_field',
 	) );
+
+	$wp_customize->add_setting( 'shelley_intro_teaser', array(
+	'sanitize_callback' => 'sanitize_text_field',
+	) );
+
+
+	$wp_customize->add_setting( 'shelley_intro_arg_1', array(
+	'sanitize_callback' => 'sanitize_text_field',
+	) );
+	$wp_customize->add_setting( 'shelley_intro_arg_2', array(
+	'sanitize_callback' => 'sanitize_text_field',
+	) );
+	$wp_customize->add_setting( 'shelley_intro_arg_3', array(
+	'sanitize_callback' => 'sanitize_text_field',
+	) );
+	$wp_customize->add_setting( 'shelley_intro_arg_4', array(
+	'sanitize_callback' => 'sanitize_text_field',
+	) );
 	$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize,'shelley_intro_image',
         array(
 			'label'      => __( 'Upload image', 'shelley' ),
@@ -662,31 +680,70 @@ function shelley_customize_register( $wp_customize ) {
         array(
 			'label'      => __( 'Upload image', 'shelley' ),
 			'section'    => 'shelley_intro',
-			'settings'   => 'shelley_intro_image',
-			'priority'	=> 1
+			'settings'   => 'shelley_intro_image_2',
+			'priority'	=> 2
 				))
 	);	
 	$wp_customize->add_control( 'shelley_intro_title', array(
 		'label' 	=> __( 'Intro Title', 'shelley'),
 		'section'	=> 'shelley_intro',
 		'settings'	=> 'shelley_intro_title',
-		'type'		=> 'text',
-		'priority'	=> 2
+		'type'		=> 'textarea',
+		'priority'	=> 3
 	) );
 	$wp_customize->add_control( 'shelley_intro_paragraph_1', array(
 		'label' 	=> __( 'Intro 1st paragraph', 'shelley'),
 		'section'	=> 'shelley_intro',
 		'settings'	=> 'shelley_intro_paragraph_1',
-		'type'		=> 'text',
-		'priority'	=> 3
+		'type'		=> 'textarea',
+		'priority'	=> 4
 	) );
 	$wp_customize->add_control( 'shelley_intro_paragraph_2', array(
 		'label' 	=> __( 'Intro 2nd paragraph', 'shelley'),
 		'section'	=> 'shelley_intro',
 		'settings'	=> 'shelley_intro_paragraph_2',
-		'type'		=> 'text',
-		'priority'	=> 4
+		'type'		=> 'textarea',
+		'priority'	=> 5
 	) );
+
+
+
+	$wp_customize->add_control( 'shelley_intro_teaser', array(
+		'label' 	=> 'Teaser',
+		'section'	=> 'shelley_intro',
+		'settings'	=> 'shelley_intro_teaser',
+		'type'		=> 'text',
+		'priority'	=> 6
+	) );
+	$wp_customize->add_control( 'shelley_intro_arg_1', array(
+		'label' 	=> 'Argument 1',
+		'section'	=> 'shelley_intro',
+		'settings'	=> 'shelley_intro_arg_1',
+		'type'		=> 'text',
+		'priority'	=> 6
+	) );
+	$wp_customize->add_control( 'shelley_intro_arg_2', array(
+		'label' 	=> 'Argument 2',
+		'section'	=> 'shelley_intro',
+		'settings'	=> 'shelley_intro_arg_2',
+		'type'		=> 'text',
+		'priority'	=> 7
+	) );
+	$wp_customize->add_control( 'shelley_intro_arg_3', array(
+		'label' 	=> 'Argument 3',
+		'section'	=> 'shelley_intro',
+		'settings'	=> 'shelley_intro_arg_3',
+		'type'		=> 'text',
+		'priority'	=> 6
+	) );
+	$wp_customize->add_control( 'shelley_intro_arg_4', array(
+		'label' 	=> 'Argument 4',
+		'section'	=> 'shelley_intro',
+		'settings'	=> 'shelley_intro_arg_4',
+		'type'		=> 'text',
+		'priority'	=> 7
+	) );
+	
 //shelley_member section
 //1st member
 	$wp_customize->add_setting( 'shelley_member_image_1', array(
@@ -819,6 +876,12 @@ function shelley_customize_register( $wp_customize ) {
 	$wp_customize->add_setting( 'shelley_services_description_1', array(
 	'sanitize_callback' => 'sanitize_text_field',
 	) );
+	$wp_customize->add_setting( 'shelley_services_href_button_1', array(
+	'sanitize_callback' => 'sanitize_text_field',
+	) );
+	$wp_customize->add_setting( 'shelley_services_text_button_1', array(
+	'sanitize_callback' => 'sanitize_text_field',
+	) );
 	$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize,'shelley_services_image_1',
         array(
 			'label'      => __( 'services 1 image', 'shelley' ),
@@ -838,6 +901,20 @@ function shelley_customize_register( $wp_customize ) {
 		'label' 	=> __( 'services 1 description', 'shelley'),
 		'section'	=> 'shelley_services',
 		'settings'	=> 'shelley_services_description_1',
+		'type'		=> 'textarea',
+
+	) );
+	$wp_customize->add_control( 'shelley_services_href_button_1', array(
+		'label' 	=> __( 'services 1 lien', 'shelley'),
+		'section'	=> 'shelley_services',
+		'settings'	=> 'shelley_services_href_button_1',
+		'type'		=> 'text',
+
+	) );
+	$wp_customize->add_control( 'shelley_services_text_button_1', array(
+		'label' 	=> __( 'services 1 text button', 'shelley'),
+		'section'	=> 'shelley_services',
+		'settings'	=> 'shelley_services_text_button_1',
 		'type'		=> 'text',
 
 	) );
@@ -849,6 +926,12 @@ function shelley_customize_register( $wp_customize ) {
 	'sanitize_callback' => 'sanitize_text_field',
 	) );
 	$wp_customize->add_setting( 'shelley_services_description_2', array(
+	'sanitize_callback' => 'sanitize_text_field',
+	) );
+	$wp_customize->add_setting( 'shelley_services_href_button_2', array(
+	'sanitize_callback' => 'sanitize_text_field',
+	) );
+	$wp_customize->add_setting( 'shelley_services_text_button_2', array(
 	'sanitize_callback' => 'sanitize_text_field',
 	) );
 	$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize,'shelley_services_image_2',
@@ -869,8 +952,22 @@ function shelley_customize_register( $wp_customize ) {
 		'label' 	=> __( 'services 2 description', 'shelley'),
 		'section'	=> 'shelley_services',
 		'settings'	=> 'shelley_services_description_2',
-		'type'		=> 'text',
+		'type'		=> 'textarea',
 	) );
+		$wp_customize->add_control( 'shelley_services_href_button_2', array(
+				'label' 	=> __( 'services 2 lien', 'shelley'),
+				'section'	=> 'shelley_services',
+				'settings'	=> 'shelley_services_href_button_2',
+				'type'		=> 'text',
+
+			) );
+			$wp_customize->add_control( 'shelley_services_text_button_2', array(
+				'label' 	=> __( 'services 2 text button', 'shelley'),
+				'section'	=> 'shelley_services',
+				'settings'	=> 'shelley_services_text_button_2',
+				'type'		=> 'text',
+
+			) );
 //3rd services
 	$wp_customize->add_setting( 'shelley_services_image_3', array(
 	'sanitize_callback' => 'esc_url_raw',
@@ -879,6 +976,12 @@ function shelley_customize_register( $wp_customize ) {
 	'sanitize_callback' => 'sanitize_text_field',
 	) );
 	$wp_customize->add_setting( 'shelley_services_description_3', array(
+	'sanitize_callback' => 'sanitize_text_field',
+	) );
+	$wp_customize->add_setting( 'shelley_services_href_button_3', array(
+	'sanitize_callback' => 'sanitize_text_field',
+	) );
+	$wp_customize->add_setting( 'shelley_services_text_button_3', array(
 	'sanitize_callback' => 'sanitize_text_field',
 	) );
 	$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize,'shelley_services_image_3',
@@ -898,37 +1001,26 @@ function shelley_customize_register( $wp_customize ) {
 		'label' 	=> __( 'services 3 description', 'shelley'),
 		'section'	=> 'shelley_services',
 		'settings'	=> 'shelley_services_description_3',
-		'type'		=> 'text',
+		'type'		=> 'textarea',
 	) );
-//4th services
-	$wp_customize->add_setting( 'shelley_services_image_4', array(
-	'sanitize_callback' => 'esc_url_raw',
-	) );
-	$wp_customize->add_setting( 'shelley_services_title_4', array(
-	'sanitize_callback' => 'sanitize_text_field',
-	) );
-	$wp_customize->add_setting( 'shelley_services_description_4', array(
-	'sanitize_callback' => 'sanitize_text_field',
-	) );
-	$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize,'shelley_services_image_4',
-        array(
-			'label'      => __( 'services 4 image', 'shelley' ),
-			'section'    => 'shelley_services',
-			'settings'   => 'shelley_services_image_4',
-			))
-	);	
-	$wp_customize->add_control( 'shelley_services_title_4', array(
-		'label' 	=> __( 'services 4 Title', 'shelley'),
-		'section'	=> 'shelley_services',
-		'settings'	=> 'shelley_services_title_4',
-		'type'		=> 'text',
-	) );
-	$wp_customize->add_control( 'shelley_services_description_4', array(
-		'label' 	=> __( 'services 4 description', 'shelley'),
-		'section'	=> 'shelley_services',
-		'settings'	=> 'shelley_services_description_4',
-		'type'		=> 'text',
-	) );
+	$wp_customize->add_control( 'shelley_services_href_button_3', array(
+			'label' 	=> __( 'services 3 lien', 'shelley'),
+			'section'	=> 'shelley_services',
+			'settings'	=> 'shelley_services_href_button_3',
+			'type'		=> 'text',
+
+		) );
+		$wp_customize->add_control( 'shelley_services_text_button_3', array(
+			'label' 	=> __( 'services 3 text button', 'shelley'),
+			'section'	=> 'shelley_services',
+			'settings'	=> 'shelley_services_text_button_3',
+			'type'		=> 'text',
+
+		) );
+
+
+
+
 //shelley_portfolio section
 //1st portfolio
 	$wp_customize->add_setting( 'shelley_portfolio_image_1', array(

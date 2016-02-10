@@ -171,6 +171,7 @@ footer.entry-footer span {
 	text-align:center;
 }
 .hero {
+	margin-top:50px; 
 	background-color: #eee;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -216,11 +217,26 @@ footer.entry-footer span {
 	font-size:2.5em;
 	margin-bottom:30px;
 }
+.intro p {
+	color: #848484;
+	font-size: 1.07em;
+	font-family: "Roboto", sans-serif;
+	margin-bottom: 20px;
+	font-weight: 300;
+	text-align: left;
+}
 .intro {
-	padding: 150px 0px 150px 0px;
+	padding: 50px 0px 15px 0px;
 	border-top: 1px solid #ddd;
 	border-bottom: 1px solid #ddd;
 }
+.intro section {
+	background-color: #eee; 
+	padding: 0px;
+	border-top: solid 5px blue;
+
+}
+
 .members {
 	padding-bottom: 100px;
 	padding-top:100px;
@@ -242,7 +258,7 @@ footer.entry-footer span {
 	margin-bottom: 20px;
 }
 
-.intro p, .members p {
+.members p {
 	color: #848484;
 	font-size: 18px;
 	font-family: "Roboto", sans-serif;
@@ -257,7 +273,7 @@ footer.entry-footer span {
 	font-size:16px;
 }
 .services {
-	padding:50px 0px 150px 0px;
+	padding:30px 0px 10px 0px;
 }
 .services p, .services h3, .services h4 {
 	text-align:center;

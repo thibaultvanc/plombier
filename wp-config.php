@@ -1,4 +1,10 @@
 <?php
+
+
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+
 /**
  * La configuration de base de votre installation WordPress.
  *
@@ -19,18 +25,18 @@
 
 // ** Réglages MySQL - Votre hébergeur doit vous fournir ces informations. ** //
 /** Nom de la base de données de WordPress. */
-var_dump($_SERVER);
-die('this');
-define('DB_NAME', $_SERVER['name']=='/home/forge'? 'plombier':'plombier');//
+
+define('DB_NAME', $_SERVER['HOME']=='/home/forge'? 'plombier':'plombier');//
 
 /** Utilisateur de la base de données MySQL. */
-define('DB_USER', $_SERVER['name']=='/home/forge'? 'forge':'homestead'); //getenv('db_username')? '':'':forge
+define('DB_USER', $_SERVER['HOME']=='/home/forge'? 'forge':'homestead'); //getenv('db_username')? '':'':forge
 
 /** Mot de passe de la base de données MySQL. */
-define('DB_PASSWORD', $_SERVER['name']=='/home/forge'? 'ikIRnfeOaGjFGGZQOgea':'secret');//getenv('db_password')? '':'secret' ikIRnfeOaGjFGGZQOgea
+define('DB_PASSWORD', $_SERVER['HOME']=='/home/forge'? 'ikIRnfeOaGjFGGZQOgea':'secret');//getenv('db_password')? '':'secret' ikIRnfeOaGjFGGZQOgea
 
 /** Adresse de l'hébergement MySQL. */
 define('DB_HOST', 'localhost'); ///////ah
+
 
 /** Jeu de caractères à utiliser par la base de données lors de la création des tables. */
 define('DB_CHARSET', 'utf8mb4');
