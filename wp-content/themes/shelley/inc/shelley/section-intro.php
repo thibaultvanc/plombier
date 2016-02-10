@@ -40,7 +40,7 @@
 				<h3><?php echo $shelley_intro_title; ?></h3>
 				<p  style="text-align:justify">	<?php echo $shelley_intro_paragraph_1; ?></p>
 
-				<p>	<?php echo $shelley_intro_paragraph_2; ?></p>
+				<p style="text-align:justify">	<?php echo $shelley_intro_paragraph_2; ?></p>
 
 
 			</div>
