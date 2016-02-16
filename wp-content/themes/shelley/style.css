@@ -890,8 +890,8 @@ object {
 
 
 footer.site-footer{
-	background: #0254b4 linear-gradient(to top, #50a7b2, #0254b4) repeat scroll 0 0;
-    color: white;
+	/*background: #0254b4 linear-gradient(to top, #50a7b2, #0254b4) repeat scroll 0 0;*/
+    color: grey;
     margin-top: 50px;
     width: 100%;
 }
