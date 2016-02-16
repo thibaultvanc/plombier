@@ -27,7 +27,6 @@ get_header();
 			<?php get_sidebar(); ?>
 			<br>
 
-				<h3>Devis Plombier Paris</h3>
 				<div class="">
 					<?php
 					function show_post($path) {
