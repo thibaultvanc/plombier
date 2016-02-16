@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"mar",
+				"margin"
+			],
+			[
 				"ba",
 				"background-color"
 			],
@@ -31,22 +35,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "wp-content/themes/shelley/front-page.php",
-			"settings":
-			{
-				"buffer_size": 1139,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "wp-content/themes/shelley/inc/customizer.php",
-			"settings":
-			{
-				"buffer_size": 70754,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -126,26 +114,36 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/home/thibault/Code/plombier",
-		"/home/thibault/Code/plombier/wp-content",
-		"/home/thibault/Code/plombier/wp-content/themes",
-		"/home/thibault/Code/plombier/wp-content/themes/shelley",
-		"/home/thibault/Code/plombier/wp-content/themes/shelley/inc"
-	],
 	"file_history":
 	[
+		"/home/thibault/Code/mlm-valley/app/Http/routes.php",
+		"/tmp/fz3temp-1/map.php",
+		"/tmp/fz3temp-1/home-1.php",
+		"/tmp/fz3temp-1/footer-info.php",
+		"/tmp/fz3temp-1/home.php",
+		"/tmp/fz3temp-1/index 3.php",
+		"/home/thibault/.homestead/Homestead.yaml",
+		"/tmp/fz3temp-1/video.php",
+		"/etc/hosts",
+		"/tmp/fz3temp-1/theme-panel.php",
+		"/tmp/fz3temp-1/oxygen_shortcodes.php",
+		"/tmp/fz3temp-1/footer.php",
+		"/tmp/fz3temp-1/index 2.php",
+		"/tmp/fz3temp-1/index.php",
+		"/home/thibault/Code/plombier/wp-content/themes/shelley/inc/shelley-frontpage.php",
+		"/home/thibault/Code/plombier/wp-content/uploads/formidable/css/formidablepro.css",
+		"/home/thibault/Code/plombier/wp-content/themes/shelley/inc/customizer.php",
+		"/home/thibault/Code/plombier/wp-content/themes/shelley/inc/shelley/section-hero.php",
 		"/home/thibault/Code/plombier/wp-content/themes/shelley/css/custom.css",
+		"/home/thibault/Code/plombier/wp-content/themes/shelley/front-page.php",
+		"/tmp/fz3temp-1/header.php",
 		"/home/thibault/Code/plombier/wp-content/themes/shelley/inc/shelley/section-intro.php",
+		"/home/thibault/.ssh/id_rsa.pub",
 		"/home/thibault/Code/plombier/wp-content/themes/shelley/inc/shelley-variables.php",
 		"/home/thibault/Code/plombier/wp-admin/css/customize-nav-menus.css",
-		"/home/thibault/Code/plombier/wp-content/themes/shelley/inc/shelley-frontpage.php",
-		"/home/thibault/Code/plombier/wp-content/themes/shelley/inc/customizer.php",
 		"/home/thibault/Code/plombier/wp-content/themes/shelley/footer.php",
 		"/home/thibault/Code/plombier/wp-content/themes/shelley/inc/shelley/section-services.php",
 		"/home/thibault/Code/plombier/wp-content/themes/shelley/header.php",
-		"/home/thibault/Code/plombier/wp-content/themes/shelley/front-page.php",
 		"/home/thibault/.config/sublime-text-3/Packages/User/Projects/cfjjb.sublime-project",
 		"/home/thibault/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
 		"/home/thibault/Code/organit/vendor/symfony/finder/Finder.php",
@@ -165,7 +163,6 @@
 		"/home/thibault/Code/mlm-valley/app/inlinr/Menu.php",
 		"/home/thibault/Code/mlm-valley/app/inlinr/Site.php",
 		"/home/thibault/Code/mlm-valley/public/index.php",
-		"/home/thibault/Code/mlm-valley/app/Http/routes.php",
 		"/home/thibault/Code/mlm-valley/app/Http/Controllers/inlinr/PageController.php",
 		"/home/thibault/Code/mlm-valley/app/inlinr/Theme.php",
 		"/home/thibault/Code/mlm-valley/app/inlinr/Block.php",
@@ -174,8 +171,7 @@
 		"/home/thibault/Code/mlm-valley/app/inlinr/Column.php",
 		"/home/thibault/Code/mlm-valley/app/inlinr/Line.php",
 		"/home/thibault/Code/mlm-valley/app/inlinr/Space.php",
-		"/home/thibault/Code/mlm-valley/app/inlinr/SpaceAccess.php",
-		"/etc/hosts"
+		"/home/thibault/Code/mlm-valley/app/inlinr/SpaceAccess.php"
 	],
 	"find":
 	{
@@ -186,6 +182,7 @@
 		"height": 158.0,
 		"where_history":
 		[
+			"/home/thibault/Code/plombier",
 			"/home/thibault/Code/plombier/wp-content/themes",
 			"/home/thibault/Code/plombier/wp-content/themes/shelley",
 			"/home/thibault/Code/mlm-valley/app/inlinr"
@@ -196,6 +193,20 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"http::178.62.27.153",
+			"178",
+			"plombier.app",
+			"app",
+			"('//plombier.app",
+			"//plombier.app",
+			"plombier.app",
+			"app",
+			"('//plombier.app",
+			"//plombier.app",
+			"plombier.app",
+			"/li",
+			"li class=\"\"",
+			"shelley_load_order_hero",
 			"intr",
 			"intro",
 			"25px",
@@ -253,67 +264,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "wp-content/themes/shelley/front-page.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1139,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								459,
-								459
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 276.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "wp-content/themes/shelley/inc/customizer.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 70754,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3544,
-								3544
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2553.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -366,6 +318,14 @@
 		"selected_items":
 		[
 			[
+				"intro",
+				"wp-content/themes/shelley/inc/shelley/section-intro.php"
+			],
+			[
+				"hero",
+				"wp-content/themes/shelley/inc/shelley/section-hero.php"
+			],
+			[
 				"sinder",
 				"vendor/symfony/finder/Finder.php"
 			],
@@ -391,9 +351,13 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "devi",
+		"last_filter": "mlm",
 		"selected_items":
 		[
+			[
+				"mlm",
+				"~/Code/mlm-valley/mlm-valley.sublime-project"
+			],
 			[
 				"devi",
 				"~/Code/devil/devil.sublime-project"
