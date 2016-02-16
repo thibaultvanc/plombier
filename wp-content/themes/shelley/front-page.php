@@ -40,14 +40,14 @@ get_header();
 					<br>
 					<br>
 
-					Derniers articles
+					<!-- Derniers articles
 
 					<h3>Plus d'info</h3>
 						<p>Vous avez une fuite ?</p>
 						<p>Vous avez besoin déboucher les canalisations ?</p>
 						<p>Problème de chaudière</p>
 						<p>Besoin d'un dépannage?</p>
-					<button class="btn btn-primary pull-right" onclick="window.location='contact';">Contacter nous !</button>
+					<button class="btn btn-primary pull-right" onclick="window.location='contact';">Contacter nous !</button> -->
 				</div>			
 			</div>
 		</div>

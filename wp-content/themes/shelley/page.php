@@ -11,6 +11,7 @@
  */
 
 get_header(); ?>
+<a href="tel:0781154983"><img src="http://plombier.organit.fr/img/web/slider/slide_2.png" style="width: 100%" ></a>
 <div class="container">
 	<div id="primary">
 	
