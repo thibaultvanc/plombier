@@ -15,9 +15,9 @@
 		<div class="container">
 		<div class="col-md-12 text-center">
 			<!--<div class="span3"><a href="javascript: duoburner.newsletter.open();">Newsletter</a></div>-->
-			<div class="col-md-4"><a class="" href="/depannage-plomberie-idf/">Dépannage</a></div>
-			<div class="col-md-4"><a class="" href="/page/installation_ballon_chanudiere_idf">Installation</a></div>
-			<div class="col-md-4"><a class="" href="/contact">Contact</a></div>
+			<div class="col-md-4"><a class="text-primary" href="/depannage-plomberie-idf/">Dépannage</a></div>
+			<div class="col-md-4"><a class="text-primary" href="/page/installation_ballon_chanudiere_idf">Installation</a></div>
+			<div class="col-md-4"><a class="text-primary" href="/contact">Contact</a></div>
 		</div>
 		<div class="col-md-12 hidden">
 			<div style="color: white;" class="span12">
