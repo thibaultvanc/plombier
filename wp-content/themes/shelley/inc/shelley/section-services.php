@@ -30,20 +30,26 @@
 <div class="services">
 		<div class="row service-items wow fadeInUp">
 			<div class="col-md-4 text-center">
-				<a href="<?php echo $shelley_services_href_button_1; ?>"><img src="<?php echo $shelley_services_image_1; ?>" ></a>
+				<div style="background-color: #2EA2D7 !important; border-radius:55%; padding: 15px">
+					<a href="<?php echo $shelley_services_href_button_1; ?>"><img style="height: 35px" src="<?php echo $shelley_services_image_1; ?>" ></a>
+				</div>
 					<h3 class="text-info"><?php echo $shelley_services_title_1; ?></h3>
 					<p style="min-height: 90px"><?php echo $shelley_services_description_1; ?></p>
 					<a href="<?php echo $shelley_services_href_button_1; ?>" ><?php echo $shelley_services_text_button_1; ?></a>
 			</div>
 			<div class="col-md-4 text-center">
-				<a href="<?php echo $shelley_services_href_button_2; ?>"><img src="<?php echo $shelley_services_image_2; ?>" ></a>
+				<div style="background-color: #2EA2D7 !important; border-radius:55%; padding: 15px">
+					<a href="<?php echo $shelley_services_href_button_2; ?>"><img style="height: 35px" src="<?php echo $shelley_services_image_2; ?>" ></a>
+				</div>
 				<h3 class="text-info"><?php echo $shelley_services_title_2; ?></h3>
 				<p style="min-height: 90px"><?php echo $shelley_services_description_2; ?></p>
 				<a href="<?php echo $shelley_services_href_button_2; ?>" ><?php echo $shelley_services_text_button_2; ?></a>
 				
 			</div>
 			<div class="col-md-4 text-center">
-				<a href="<?php echo $shelley_services_href_button_; ?>"><img src="<?php echo $shelley_services_image_3; ?>" ></a>
+				<div style="background-color: #2EA2D7 !important; border-radius:55%; padding: 15px">
+					<a href="<?php echo $shelley_services_href_button_; ?>"><img style="height: 35px" src="<?php echo $shelley_services_image_3; ?>" ></a>
+				</div>
 				<h3 class="text-info"><?php echo $shelley_services_title_3; ?></h3>
 				<p style="min-height: 90px"><?php echo $shelley_services_description_3; ?></p>
 				<a href="<?php echo $shelley_services_href_button_3; ?>" ><?php echo $shelley_services_text_button_3; ?></a>

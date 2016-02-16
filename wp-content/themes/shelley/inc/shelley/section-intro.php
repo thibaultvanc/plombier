@@ -34,7 +34,7 @@
 				<br>
 				<br>
 				<br>
-				<img src="<?php echo $shelley_intro_image_2; ?>">
+				<a href="tel:0781154983"><img src="<?php echo $shelley_intro_image_2; ?>"></a>
 			</section>
 			<div class="col-md-6 intro-text">
 				<h3><?php echo $shelley_intro_title; ?></h3>

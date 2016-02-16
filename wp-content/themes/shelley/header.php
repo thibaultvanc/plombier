@@ -25,11 +25,24 @@
 	<a class="skip-link screen-reader-text" href="#content">
 	<?php esc_html_e( 'Skip to content', 'shelley' ); ?></a>
 		<div class="container">	
-			<div class="row bg-defzault">
+			<div class="row bg-defzault"> 
 				<div class="pull-right">	
 					<ul>
 						<li class="pull-right mini-menu-item" href="/contact"><a href="/contact">Contact</a></li>
-						<li class="pull-right mini-menu-item" href="/contact"><a href="/devis">Devis Gratuit</a></li>
+						<li class="dropdown pull-right mini-menu-item">
+						  <a id="dLabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						    Devis Gratuit
+						    <span class="caret"></span>
+						  </a>
+						  <ul class="dropdown-menu" aria-labelledby="dLabel">
+						  		<li><a href="/contact">Devis La-Garenne-Colombes</a></li>
+						  		<li><a href="/contact">Devis Colombes</a></li>
+						  		<li><a href="/contact">Devis Nanterre</a></li>
+						  		<li><a href="/contact">Devis Asnières</a></li>
+						  		<li><a href="/contact">Devis Courbevoie</a></li>
+						  		<li><a href="/contact">Devis Paris</a></li>
+						  </ul>
+						</li>
 					</ul>
 				</div>
 			</div>
