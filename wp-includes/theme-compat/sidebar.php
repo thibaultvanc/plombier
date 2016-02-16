@@ -16,7 +16,7 @@ _deprecated_file(
 	sprintf( __( 'Please include a %s template in your theme.' ), basename( __FILE__ ) )
 );
 ?>
-	<div id="sidebar" role="complementary">
+	<div id="sidebar" role="complementary">aaaaaaaaaaaaaaaaaa
 		<ul>
 			<?php 	/* Widgetized sidebar, if you have the plugin installed. */
 					if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar() ) : ?>

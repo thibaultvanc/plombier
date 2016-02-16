@@ -24,7 +24,9 @@ get_header();
 				?>
 			</div>
 			<div class="col-md-4 bg-info" style="padding-left: 50px">
+			<?php get_sidebar(); ?>
 			<br>
+
 				<h3>Devis Plombier Paris</h3>
 				<div class="">
 					<?php
@@ -33,10 +35,12 @@ get_header();
 					  $content = apply_filters('the_content', $post->post_content);
 					  echo $content;
 					} 
-					 show_post('contact'); 
+					 show_post('devis'); 
 					 ?>
 					<br>
 					<br>
+
+					Derniers articles
 
 					<h3>Plus d'info</h3>
 						<p>Vous avez une fuite ?</p>
