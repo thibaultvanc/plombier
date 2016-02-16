@@ -17,9 +17,11 @@
 				<!--<span><a href="<?php echo $shelley_hero_button_2_link; ?>"><?php echo $shelley_hero_button_2_text; ?></a></span>-->
 			</div>
 			<div class="col-md-6 fadeInUp hero-image" style="vertical-align: center;">
+			aaaaaaaaaaaaaaaa
 				<img src="<?php echo $shelley_hero_featured_image; ?>">
 			</div>
 		</div>
 </div>
+
 
 <?php } ?>
