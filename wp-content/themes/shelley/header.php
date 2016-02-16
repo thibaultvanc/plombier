@@ -65,7 +65,7 @@
 							<img src="<?php header_image(); ?>" width="<?php echo esc_attr( get_custom_header()->width ); ?>" height="<?php echo esc_attr( get_custom_header()->height ); ?>" alt="">
 							</a>
 						<?php endif; ?>
-							<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+							<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">1 plombier près de chez vous<?php //bloginfo( 'name' ); ?></a></p>
 							<p class="site-description"><?php bloginfo( 'description' ); ?></p>
 					</div><!-- .site-branding -->
 				</div>
