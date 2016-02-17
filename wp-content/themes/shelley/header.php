@@ -43,7 +43,7 @@
 						  		<li><a href="/devis-paris">Devis Paris</a></li>
 						  </ul>
 						</li>
-						<li><a href="/actualites">Actualités</a></li>
+						<li class="pull-right mini-menu-item"><a href="/actualites">Actualités</a></li>
 					</ul>
 				</div>
 			</div>
