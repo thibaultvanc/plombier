@@ -17,7 +17,15 @@ get_header();
 
 		<div class="row">
 			<div class="col-md-8">
-			<h1 class="text-primary">Interventions plomberie sur la Garenne Colombres, Colombres , Nanterre,Courbevoie, Paris, Asnières</h1>
+			<h1 class="text-primary">Interventions plomberie sur 
+					<a href="/devis-la-garenne-colombes">La-Garenne-Colombes</a>,  
+					<a href="/devis-colombes">Colombes</a>, 
+					<a href="/devis-nanterre">Nanterre</a>, 
+					<a href="/devis-asnieres">Asnières</a>, 
+					<a href="/devis-courbevoie">Courbevoie</a>, 
+					<a href="/devis-paris">Paris</a> 
+
+			</h1>
 				<?php
 				 get_template_part ('inc/shelley', 'variables' );
 				 get_template_part( 'inc/shelley', 'frontpage' ); 

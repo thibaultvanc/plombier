@@ -35,12 +35,12 @@
 						    <span class="caret"></span>
 						  </a>
 						  <ul class="dropdown-menu" aria-labelledby="dLabel">
-						  		<li><a href="/devis">Devis La-Garenne-Colombes</a></li>
-						  		<li><a href="/devis">Devis Colombes</a></li>
-						  		<li><a href="/devis">Devis Nanterre</a></li>
-						  		<li><a href="/devis">Devis Asnières</a></li>
-						  		<li><a href="/devis">Devis Courbevoie</a></li>
-						  		<li><a href="/devis">Devis Paris</a></li>
+						  		<li><a href="/devis-la-garenne-colombes">Devis La-Garenne-Colombes</a></li>
+						  		<li><a href="/devis-colombes">Devis Colombes</a></li>
+						  		<li><a href="/devis-nanterre">Devis Nanterre</a></li>
+						  		<li><a href="/devis-asnieres">Devis Asnières</a></li>
+						  		<li><a href="/devis-courbevoie">Devis Courbevoie</a></li>
+						  		<li><a href="/devis-paris">Devis Paris</a></li>
 						  </ul>
 						</li>
 					</ul>

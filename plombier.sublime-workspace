@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"font",
+				"font-size"
+			],
+			[
+				"b",
+				"bold"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
 				"mar",
 				"margin"
 			],
@@ -43,10 +55,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 263.0,
-		"last_filter": "project",
+		"height": 354.0,
+		"last_filter": "com",
 		"selected_items":
 		[
+			[
+				"com",
+				"Toggle Comment"
+			],
 			[
 				"project",
 				"Project: Close"
@@ -96,7 +112,7 @@
 				"Preferences: Key Bindings - User"
 			]
 		],
-		"width": 449.0
+		"width": 557.0
 	},
 	"console":
 	{
@@ -116,6 +132,19 @@
 	},
 	"file_history":
 	[
+		"/home/thibault/Code/plombier/wp-content/themes/shelley/css/custom.css",
+		"/home/thibault/Code/plombier/wp-content/themes/shelley/inc/shelley/section-services.php",
+		"/home/thibault/Code/plombier/wp-includes/theme-compat/sidebar.php",
+		"/home/thibault/Code/plombier/wp-content/themes/shelley/header.php",
+		"/home/thibault/Code/plombier/wp-content/themes/shelley/inc/shelley/section-hero.php",
+		"/home/thibault/Code/plombier/wp-content/themes/shelley/inc/shelley/section-intro.php",
+		"/home/thibault/Code/plombier/wp-content/themes/shelley/style.css",
+		"/home/thibault/Code/plombier/wp-content/themes/shelley/front-page.php",
+		"/home/thibault/Code/plombier/wp-content/themes/shelley/page.php",
+		"/home/thibault/Code/plombier/plombier.sublime-project",
+		"/home/thibault/Code/plombier/wp-content/themes/shelley/footer.php",
+		"/home/thibault/Code/plombier/wp-includes/general-template.php",
+		"/home/thibault/Code/plombier/.gitignore",
 		"/home/thibault/Code/mlm-valley/app/Http/routes.php",
 		"/tmp/fz3temp-1/map.php",
 		"/tmp/fz3temp-1/home-1.php",
@@ -133,17 +162,10 @@
 		"/home/thibault/Code/plombier/wp-content/themes/shelley/inc/shelley-frontpage.php",
 		"/home/thibault/Code/plombier/wp-content/uploads/formidable/css/formidablepro.css",
 		"/home/thibault/Code/plombier/wp-content/themes/shelley/inc/customizer.php",
-		"/home/thibault/Code/plombier/wp-content/themes/shelley/inc/shelley/section-hero.php",
-		"/home/thibault/Code/plombier/wp-content/themes/shelley/css/custom.css",
-		"/home/thibault/Code/plombier/wp-content/themes/shelley/front-page.php",
 		"/tmp/fz3temp-1/header.php",
-		"/home/thibault/Code/plombier/wp-content/themes/shelley/inc/shelley/section-intro.php",
 		"/home/thibault/.ssh/id_rsa.pub",
 		"/home/thibault/Code/plombier/wp-content/themes/shelley/inc/shelley-variables.php",
 		"/home/thibault/Code/plombier/wp-admin/css/customize-nav-menus.css",
-		"/home/thibault/Code/plombier/wp-content/themes/shelley/footer.php",
-		"/home/thibault/Code/plombier/wp-content/themes/shelley/inc/shelley/section-services.php",
-		"/home/thibault/Code/plombier/wp-content/themes/shelley/header.php",
 		"/home/thibault/.config/sublime-text-3/Packages/User/Projects/cfjjb.sublime-project",
 		"/home/thibault/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
 		"/home/thibault/Code/organit/vendor/symfony/finder/Finder.php",
@@ -182,6 +204,8 @@
 		"height": 158.0,
 		"where_history":
 		[
+			"/home/thibault/Code/plombier/wp-content/themes/shelley",
+			"/home/thibault/Code/plombier/wp-content/themes/shelley/css",
 			"/home/thibault/Code/plombier",
 			"/home/thibault/Code/plombier/wp-content/themes",
 			"/home/thibault/Code/plombier/wp-content/themes/shelley",
@@ -193,6 +217,18 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"site-footer",
+			"3",
+			"contact",
+			"img",
+			"25px",
+			"devis",
+			"mini-menu-item",
+			"La-Garenne",
+			"-",
+			"Garenne",
+			"La-Garenne",
+			"-",
 			"http::178.62.27.153",
 			"178",
 			"plombier.app",
@@ -318,6 +354,18 @@
 		"selected_items":
 		[
 			[
+				"/theme-compat/sidebar.php",
+				"wp-includes/theme-compat/sidebar.php"
+			],
+			[
+				"sectionintr",
+				"wp-content/themes/shelley/inc/shelley/section-intro.php"
+			],
+			[
+				"services",
+				"wp-content/themes/shelley/inc/shelley/section-services.php"
+			],
+			[
 				"intro",
 				"wp-content/themes/shelley/inc/shelley/section-intro.php"
 			],
@@ -351,9 +399,13 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "mlm",
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"plo",
+				"~/Code/plombier/plombier.sublime-project"
+			],
 			[
 				"mlm",
 				"~/Code/mlm-valley/mlm-valley.sublime-project"
