@@ -453,8 +453,9 @@ h1.page-title {
 	padding: 0px 0px 10px 20px;
 }
 h4.widget-title {
-	color: #999;
-	font-size: 1.2em;
+	color: #000;
+	font-size: 1.6em;
+	font-weight: bold;
 }
 .masonry-blog {
 	background: white;

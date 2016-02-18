@@ -32,7 +32,7 @@
 
 		<div class="col-md-12 text-center">
 			<!--<div class="span3"><a href="javascript: duoburner.newsletter.open();">Newsletter</a></div>-->
-		<p style="margin: 0px" >1 PLOMBIER PRES DE CHEZ VOUS - 2 Rue Planchat - 75020 Paris - RCS 534 694 781</p>
+		<p style="margin: 0px" >1 PLOMBIER PRES DE CHEZ VOUS - RCS 534 694 781</p>
 		<p style="margin: 0px">2 rue lucien jeannin 92250 La Garenne Colombes</p>
 		<p style="margin: 0px">2 rue Planchat 75020 Paris </p><br>
 			<a style="color: #000000; font-size: 12px" href="/mentions-legales">Mentions légales</a>
