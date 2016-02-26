@@ -177,8 +177,8 @@ footer.entry-footer span {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: 50% -400px;
-	padding-top: 70px;
-	height:500px;
+	padding: 30px;
+	height:auto;
 }
 .hero h1, .hero p {
 	text-align:left;
