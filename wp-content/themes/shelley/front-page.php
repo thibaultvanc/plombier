@@ -17,8 +17,8 @@ get_header();
 
 		<div class="row">
 			<div class="col-md-8">
-			<h1 class="text-primary">Interventions plomberie sur 
-					<a href="/devis-la-garenne-colombes">La-Garenne-Colombes</a>,  
+			<h1 class="text-primary">Interventions plomberie sur <br>
+					<a href="/devis-la-garenne-colombes">La Garenne Colombes</a>,  
 					<a href="/devis-colombes">Colombes</a>, 
 					<a href="/devis-nanterre">Nanterre</a>, 
 					<a href="/devis-asnieres">Asnières</a>, 
