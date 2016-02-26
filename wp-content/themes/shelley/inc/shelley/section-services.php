@@ -35,7 +35,7 @@
 				</div>
 					<h3 class="text-info"><?php echo $shelley_services_title_1; ?></h3>
 					<p style="min-height: 90px"><?php echo $shelley_services_description_1; ?></p>
-					<a href="<?php echo $shelley_services_href_button_1; ?>" ><?php echo $shelley_services_text_button_1; ?></a>
+					<a href="<?php echo $shelley_services_href_button_1; ?>" class="btn btn-primary" ><?php echo $shelley_services_text_button_1; ?></a>
 			</div>
 			<div class="col-md-4 text-center">
 				<div>
@@ -43,7 +43,7 @@
 				</div>
 				<h3 class="text-info"><?php echo $shelley_services_title_2; ?></h3>
 				<p style="min-height: 90px"><?php echo $shelley_services_description_2; ?></p>
-				<a href="<?php echo $shelley_services_href_button_2; ?>" ><?php echo $shelley_services_text_button_2; ?></a>
+				<a href="<?php echo $shelley_services_href_button_2; ?>" class="btn btn-primary" ><?php echo $shelley_services_text_button_2; ?></a>
 				
 			</div>
 			<div class="col-md-4 text-center">
@@ -52,7 +52,7 @@
 				</div>
 				<h3 class="text-info"><?php echo $shelley_services_title_3; ?></h3>
 				<p style="min-height: 90px"><?php echo $shelley_services_description_3; ?></p>
-				<a href="<?php echo $shelley_services_href_button_3; ?>" ><?php echo $shelley_services_text_button_3; ?></a>
+				<a href="<?php echo $shelley_services_href_button_3; ?>" class="btn btn-primary" ><?php echo $shelley_services_text_button_3; ?></a>
 			</div>
 			
 		</div>

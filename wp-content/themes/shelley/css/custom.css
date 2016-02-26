@@ -282,6 +282,13 @@ footer.entry-footer span {
 .services hr {
 	margin-bottom:100px;
 }
+
+.services a {
+	font-weight: bold;
+	font-size: 21px;
+	color: white;
+}
+
 .portfolio {
 	padding:50px 0px 150px 0px;
 	background-color:#eee;
