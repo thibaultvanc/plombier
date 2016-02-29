@@ -35,7 +35,7 @@
 						    <span class="caret"></span>
 						  </a>
 						  <ul class="dropdown-menu" aria-labelledby="dLabel">
-						  		<li><a href="/devis-la-garenne-colombes">Devis La-Garenne-Colombes</a></li>
+						  		<li><a href="/devis-la-garenne-colombes">Devis La Garenne Colombes</a></li>
 						  		<li><a href="/devis-colombes">Devis Colombes</a></li>
 						  		<li><a href="/devis-nanterre">Devis Nanterre</a></li>
 						  		<li><a href="/devis-asnieres">Devis Asnières</a></li>

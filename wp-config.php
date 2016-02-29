@@ -26,13 +26,13 @@ ini_set('display_errors', 1);
 // ** Réglages MySQL - Votre hébergeur doit vous fournir ces informations. ** //
 /** Nom de la base de données de WordPress. */
 
-define('DB_NAME', $_SERVER['HOME']=='/home/forge'? 'plombier':'plombier');//
+define('DB_NAME', $_SERVER['HOME']=='/home/elvis'? 'plombier':'plombier');//
 
 /** Utilisateur de la base de données MySQL. */
-define('DB_USER', $_SERVER['HOME']=='/home/forge'? 'forge':'homestead'); //getenv('db_username')? '':'':forge
+define('DB_USER', $_SERVER['HOME']=='/home/elvis'? 'forge':'homestead'); //getenv('db_username')? '':'':forge
 
 /** Mot de passe de la base de données MySQL. */
-define('DB_PASSWORD', $_SERVER['HOME']=='/home/forge'? 'ikIRnfeOaGjFGGZQOgea':'secret');//getenv('db_password')? '':'secret' ikIRnfeOaGjFGGZQOgea
+define('DB_PASSWORD', $_SERVER['HOME']=='/home/elvis'? '6Jw1GCXLYadyTSOh73NJ':'secret');//getenv('db_password')? '':'secret' ikIRnfeOaGjFGGZQOgea
 
 /** Adresse de l'hébergement MySQL. */
 define('DB_HOST', 'localhost'); ///////ah
