@@ -488,7 +488,7 @@ h4.widget-title {
 	.services hr, .testimonials hr { margin:0 0 20px 0; }
 	.intro h3, .intro p { text-align:center; }
 	.testimonials { padding: 50px 0px 0px 0px; }
-	.main-navigation { display:none; }
+	.main-navigation { display:block; }
 	#content {padding-top: 0; }	
 	#page { overflow: hidden; }
 	.content-area, .widget-area { width:100%; }
@@ -511,7 +511,7 @@ h4.widget-title {
 	.intro { padding: 50px 0px; }
 	.intro h3, .intro p { text-align:center; }
 	.testimonials { padding: 50px 0px 0px 0px; }
-	.main-navigation { display:none; }
+	.main-navigation { display:block; }
 	#content {padding-top: 0; }
 	#page { overflow: hidden; }
 	.content-area, .widget-area { width:100%; }

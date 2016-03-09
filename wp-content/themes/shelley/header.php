@@ -1,4 +1,8 @@
 <?php
+ global $post;
+ $currentUrl=$post->post_name;
+
+
 /**
  * The header for our theme.
  *
@@ -51,12 +55,7 @@
 
 
 	<header id="masthead" class="site-header" role="banner">
-		<!-- <div class="row bg-primary">
-			<ul class="">
-				<li>Contact</li>
-				<li>Devis Gratuit</li>
-			</ul>
-		</div> -->
+
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4">
@@ -68,18 +67,28 @@
 						<?php endif; ?>
 							<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">1 Plombier près de chez vous<?php //bloginfo( 'name' ); ?></a></p>
 							<p class="site-description"><?php bloginfo( 'description' ); ?></p>
-					</div><!-- .site-branding -->
+					</div>
 				</div>
 			
 				<div class="col-md-8">
 					<nav id="site-navigation" class="main-navigation" role="navigation">
-						<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'shelley' ); ?></button>
-							<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
-					</nav><!-- #site-navigation -->
+						<!--<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'shelley' ); ?></button>-->
+							<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => '' ) ); ?>
+					</nav>
 				</div>
 			</div>
 		</div>
-	</header><!-- #masthead -->
+	</header>
+
+
+
+
+
+
+
+
+
+
 
 	<div id="content" class="site-content">
 		
