@@ -26,7 +26,7 @@ ini_set('display_errors', 1);
 // ** Réglages MySQL - Votre hébergeur doit vous fournir ces informations. ** //
 /** Nom de la base de données de WordPress. */
 
-die($_SERVER['HOME']);
+//die($_SERVER['HOME']);
 
 define('DB_NAME', $_SERVER['HOME']=='/home/forge'? 'plombier':'plombier');//
 
