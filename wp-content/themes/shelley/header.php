@@ -2,7 +2,7 @@
  //global $post;
  //$currentUrl=$post->post_name;
 
-echo $currentUrl = basename(get_permalink());
+$currentUrl = basename(get_permalink());
 
 
 /**
@@ -101,7 +101,7 @@ echo $currentUrl = basename(get_permalink());
 	      		</a>
 	      	<?php endif; ?>
 	      		<p class="site-title">1 Plombier près de chez vous<?php //bloginfo( 'name' ); ?></p>
-	      		<p class="site-description"><?php bloginfo( 'description' ); ?></p>
+	      		<p class="site-description hidden-xs"><?php bloginfo( 'description' ); ?></p>
 	      </a>
 
 	    </div>
