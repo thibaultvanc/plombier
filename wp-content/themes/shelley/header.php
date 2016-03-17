@@ -1,6 +1,8 @@
 <?php
- global $post;
- $currentUrl=$post->post_name;
+ //global $post;
+ //$currentUrl=$post->post_name;
+
+echo $currentUrl = basename(get_permalink());
 
 
 /**
@@ -53,7 +55,7 @@
 			</div>
 		</div>
 
-
+<!--
 	<header id="masthead" class="site-header" role="banner">
 
 		<div class="container">
@@ -72,16 +74,51 @@
 			
 				<div class="col-md-8">
 					<nav id="site-navigation" class="main-navigation" role="navigation">
-						<!--<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'shelley' ); ?></button>-->
+					
 							<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => '' ) ); ?>
 					</nav>
 				</div>
 			</div>
 		</div>
 	</header>
+-->
 
 
 
+	<nav class="navbar navbar-default">
+	  <div class="container">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>">
+	      	<?php if ( get_header_image() ) : ?>
+	      		<img src="<?php header_image(); ?>" width="<?php echo esc_attr( get_custom_header()->width ); ?>" height="<?php echo esc_attr( get_custom_header()->height ); ?>" alt="">
+	      		</a>
+	      	<?php endif; ?>
+	      		<p class="site-title">1 Plombier près de chez vous<?php //bloginfo( 'name' ); ?></p>
+	      		<p class="site-description"><?php bloginfo( 'description' ); ?></p>
+	      </a>
+
+	    </div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      
+	      <ul class="nav navbar-nav navbar-right">
+		       <li><a class="menu_item <?= $currentUrl=='bonjour-tout-le-monde'? 'active':'' ?>" href="">Accueil</a></li>
+		       <li><a class="menu_item <?= $currentUrl=='fuite-deau'? 'active':'' ?>" href="fuite-deau/">Fuite d’eau</a></li>
+		       <li><a class="menu_item <?= $currentUrl=='debouchage-canalisation'? 'active':'' ?>" href="/debouchage-canalisation/">Débouchage Canalisation</a></li>
+		       <li><a class="menu_item <?= $currentUrl=='installation_ballon_chanudiere_idf'? 'active':'' ?>" href="/installation_ballon_chanudiere_idf/">Chauffe eau &amp; Chaudières</a></li>
+		       <li><a class="menu_item <?= $currentUrl=='depannage-plomberie-idf'? 'active':'' ?>" href="/depannage-plomberie-idf/">Depannage</a></li>
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
 
 
 
@@ -91,4 +128,3 @@
 
 
 	<div id="content" class="site-content">
-		
