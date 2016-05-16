@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Template part for displaying single posts.
  *
@@ -18,8 +19,8 @@
 		<?php if ( has_post_thumbnail() ) {	?>
 			<div class="featured-image">
 				<?php the_post_thumbnail(); ?>
-			</div>		
-		<?php } ?> 
+			</div>
+		<?php } ?>
 	<div class="entry-content">
 		<?php the_content(); ?>
 		<?php
@@ -34,4 +35,3 @@
 		<?php shelley_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
-
