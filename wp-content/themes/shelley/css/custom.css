@@ -6,6 +6,10 @@ code {
 	white-space:normal;
 }
 
+.entry-content p{
+	text-align: justify !important;
+}
+
 
 #primary{
 	float: left;
