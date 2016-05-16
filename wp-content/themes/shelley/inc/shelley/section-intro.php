@@ -1,5 +1,5 @@
 
-<?php function shelley_load_intro() { 
+<?php function shelley_load_intro() {
 
 	global $shelley_intro_image;
 	global $shelley_intro_image_2; //
