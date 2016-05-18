@@ -110,7 +110,7 @@ $currentUrl = basename(get_permalink());
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	      
 	      <ul class="nav navbar-nav navbar-right">
-		       <li><a class="menu_item <?= $currentUrl=='bonjour-tout-le-monde'? 'active':'' ?>" href="">Accueil</a></li>
+		       <li><a class="menu_item <?= $currentUrl=='bonjour-tout-le-monde'? 'active':'' ?>" href="/">Accueil</a></li>
 		       <li><a class="menu_item <?= $currentUrl=='fuite-deau'? 'active':'' ?>" href="fuite-deau/">Fuite d’eau</a></li>
 		       <li><a class="menu_item <?= $currentUrl=='debouchage-canalisation'? 'active':'' ?>" href="/debouchage-canalisation/">Débouchage Canalisation</a></li>
 		       <li><a class="menu_item <?= $currentUrl=='installation_ballon_chanudiere_idf'? 'active':'' ?>" href="/installation_ballon_chanudiere_idf/">Chauffe eau &amp; Chaudières</a></li>

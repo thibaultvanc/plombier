@@ -14,6 +14,16 @@
 	global $shelley_intro_paragraph_1;
 	global $shelley_intro_paragraph_2;
 ?>
+
+
+
+
+
+
+
+
+
+
 <div class="intro">
 		<div class="row">
 			<section class="col-md-6 wow fadeInUp" class="teaser_area">
