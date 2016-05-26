@@ -30,9 +30,9 @@ $currentUrl = basename(get_permalink());
 
 	<a class="skip-link screen-reader-text" href="#content">
 	<?php esc_html_e( 'Skip to content', 'shelley' ); ?></a>
-		<div class="container">	
-			<div class="row bg-defzault"> 
-				<div class="pull-right">	
+		<div class="container">
+			<div class="row bg-defzault">
+				<div class="pull-right">
 					<ul>
 						<li class="pull-right mini-menu-item" href="/contact"><a href="/contact">Contact</a></li>
 						<li class="dropdown pull-right mini-menu-item">
@@ -71,10 +71,10 @@ $currentUrl = basename(get_permalink());
 							<p class="site-description"><?php bloginfo( 'description' ); ?></p>
 					</div>
 				</div>
-			
+
 				<div class="col-md-8">
 					<nav id="site-navigation" class="main-navigation" role="navigation">
-					
+
 							<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => '' ) ); ?>
 					</nav>
 				</div>
@@ -108,13 +108,13 @@ $currentUrl = basename(get_permalink());
 
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	      
+
 	      <ul class="nav navbar-nav navbar-right">
 		       <li><a class="menu_item <?= $currentUrl=='bonjour-tout-le-monde'? 'active':'' ?>" href="/">Accueil</a></li>
+			   <li><a class="menu_item <?= $currentUrl=='depannage-plomberie-idf'? 'active':'' ?>" href="/depannage-plomberie-idf/">Depannage</a></li>
 		       <li><a class="menu_item <?= $currentUrl=='fuite-deau'? 'active':'' ?>" href="fuite-deau/">Fuite d’eau</a></li>
 		       <li><a class="menu_item <?= $currentUrl=='debouchage-canalisation'? 'active':'' ?>" href="/debouchage-canalisation/">Débouchage Canalisation</a></li>
 		       <li><a class="menu_item <?= $currentUrl=='installation_ballon_chanudiere_idf'? 'active':'' ?>" href="/installation_ballon_chanudiere_idf/">Chauffe eau &amp; Chaudières</a></li>
-		       <li><a class="menu_item <?= $currentUrl=='depannage-plomberie-idf'? 'active':'' ?>" href="/depannage-plomberie-idf/">Depannage</a></li>
 	      </ul>
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
